@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1093132-4437-45AF-BDC4-DC13F5A10F88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{162775BD-511F-4FAA-913A-5C89911804CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4CA9779E-9972-41F1-B000-5FFD335E1317}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6DB59982-5B4F-4298-8F75-E36F40D5104C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{4FAC1362-0681-49EC-B6BF-FEF7EEE7585D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{63C4E19A-4051-4F42-AA85-9B95509BF64E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduZbieracz.Domain", "EduZbieracz.Domain\EduZbieracz.Domain.csproj", "{735A89B1-38DC-46AC-8652-07F529140864}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735A89B1-38DC-46AC-8652-07F529140864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735A89B1-38DC-46AC-8652-07F529140864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735A89B1-38DC-46AC-8652-07F529140864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735A89B1-38DC-46AC-8652-07F529140864}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{162775BD-511F-4FAA-913A-5C89911804CA} = {B1093132-4437-45AF-BDC4-DC13F5A10F88}
+		{4CA9779E-9972-41F1-B000-5FFD335E1317} = {B1093132-4437-45AF-BDC4-DC13F5A10F88}
+		{6DB59982-5B4F-4298-8F75-E36F40D5104C} = {B1093132-4437-45AF-BDC4-DC13F5A10F88}
+		{4FAC1362-0681-49EC-B6BF-FEF7EEE7585D} = {B1093132-4437-45AF-BDC4-DC13F5A10F88}
+		{735A89B1-38DC-46AC-8652-07F529140864} = {4CA9779E-9972-41F1-B000-5FFD335E1317}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C952874D-338D-4E24-96A3-5FC245F1A7F4}
+	EndGlobalSection
+EndGlobal
